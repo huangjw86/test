@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-29T14:38:11.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="aD37BwSrtKbMIsBYeMEH" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-30T05:42:11.526Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="_JBdl9MHOal2TNcZw_GI" version="22.0.8" type="github">
   <diagram name="第 1 页" id="BSiDAe2Zlt0LySH5Vkly">
-    <mxGraphModel dx="1592" dy="453" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1756" dy="547" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -158,13 +158,13 @@
         <mxCell id="4J7-bgVDbELEeenfHwWn-31" value="$$ m $$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-378" y="683" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4J7-bgVDbELEeenfHwWn-32" value="$$Enc(m,sk)\rightarrow c$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4J7-bgVDbELEeenfHwWn-32" value="$$Enc(m,pk)\rightarrow c$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-302" y="683" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4J7-bgVDbELEeenfHwWn-33" value="$$ Eval(F,c_1,c_2,\cdots,c_l)\rightarrow ct$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-142" y="683" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4J7-bgVDbELEeenfHwWn-34" value="$$Dec(c,sk)\rightarrow m$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4J7-bgVDbELEeenfHwWn-34" value="$$Dec(ct,sk)\rightarrow m*$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="683" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4J7-bgVDbELEeenfHwWn-35" value="2009年" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=default;" vertex="1" parent="1">
@@ -752,6 +752,9 @@
             <mxPoint x="287.5" y="2227" as="sourcePoint" />
             <mxPoint x="287.5" y="2274" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4J7-bgVDbELEeenfHwWn-249" value="$$ Eval(F,m_1,m_2,\cdots,m_l)\rightarrow m*$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-169" y="822" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
